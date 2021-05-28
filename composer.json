@@ -1,5 +1,10 @@
 {
     "name": "evgeny/hexlet-php",
+    "autoload":{
+	    "files":[
+		    "src/Runner.php"
+	    ]
+    },
     "type": "project",
     "authors": [
         {
@@ -7,5 +12,7 @@
             "email": "ekuzin@outlook.com"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^8.34"
+    }
 }
